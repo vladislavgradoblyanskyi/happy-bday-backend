@@ -15,8 +15,8 @@ export const imageSchema = new Schema(
     },
     description: {
       type:String,
-      required:false,
-      default: '',
+      required:true,
+      default: 'no data',
     },
 
   },
